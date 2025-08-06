@@ -1,0 +1,1 @@
+/home/archnime/Documentos/GIT/Rust/Basic_Exercises/Bootcamp/intermediate_clijira/target/debug/intermediate_clijira: /home/archnime/Documentos/GIT/Rust/Basic_Exercises/Bootcamp/intermediate_clijira/src/main.rs /home/archnime/Documentos/GIT/Rust/Basic_Exercises/Bootcamp/intermediate_clijira/src/models.rs
