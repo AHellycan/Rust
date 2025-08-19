@@ -52,7 +52,12 @@ impl Page for EpicDetail {
         println!("  id  |     name     |         description         |    status    ");
 
         // TODO: print out epic details using get_column_string()
-  
+        println!("{} | {} | {} | {}", 
+            get_column_string(&self.epic_id.to_string(), 5),
+            get_column_string(&epic.name, 20),
+            get_column_string(&epic.description, 30),
+            get_column_string(&epic.status.to_string(), 15)
+        );
         println!();
 
         println!("---------------------------- STORIES ----------------------------");

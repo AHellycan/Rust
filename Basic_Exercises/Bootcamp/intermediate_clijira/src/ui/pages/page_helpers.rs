@@ -1,8 +1,37 @@
 
-use ellipse::Ellipse;
+//use ellipse::Ellipse;
 
 pub fn get_column_string(text: &str, width: usize) -> String {
-    todo!() // use the truncate_ellipse function from the ellipse crate
+    //todo!() // use the truncate_ellipse function from the ellipse crate
+    let text_len = text.chars().count();
+    match width {
+        0 => return String::new(),
+        1 | 2 | 3 => {return ".".repeat(width)},
+        _ if text_len > width => {
+            let mut result_str=String::new();
+
+            for(i,c) in text.chars().enumerate() {
+                if i >= width - 3 {
+                    break;
+                }
+                result_str.push(c);
+            }
+            result_str.push_str("...");
+            //println!("text_len: {}, width: {}, result_str: {}", text_len, width, result_str);
+            result_str
+            
+
+        }
+        _ => {
+            let mut result = text.to_string();
+            // If the text is shorter than the width, pad with spaces
+            result.push_str(&" ".repeat(width - text_len));
+            return result;
+        }
+        
+    }
+    
+
 }
 
 #[cfg(test)]
