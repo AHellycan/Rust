@@ -1,4 +1,6 @@
+use std::any::Any;
 use std::rc::Rc;
+
 
 use itertools::Itertools;
 use anyhow::Result;
@@ -24,7 +26,12 @@ impl Page for HomePage {
         println!("     id     |               name               |      status      ");
 
         // TODO: print out epics using get_column_string(). also make sure the epics are sorted by id
-
+        let epics = self.db.read_db()?.epics;
+        for id in epics.keys().sorted() {
+            let epic = &epics[id];
+            let id_column = get_column_string(&id.to_string(), 11);
+            let name_column = get_column_string(&epic.name,  30);
+        }
         println!();
         println!();
 
