@@ -121,7 +121,7 @@ impl Database for JSONFileDatabase {
 
     fn write_db(&self, db_state: &DBState) -> Result<()> {
         //todo!() // serialize db_state to json and store it in self.file_path
-        let db_content = serde_json::to_string(db_state)?;
+        let db_content = serde_json::to_vec(db_state)?;
         std::fs::write(&self.file_path, db_content)?;
         Ok(())
     }
