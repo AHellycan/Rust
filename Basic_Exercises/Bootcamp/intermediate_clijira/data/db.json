@@ -1,1 +1,1 @@
-{"last_item_id":2,"epics":{"1":{"name":"Epic_1\r\n","description":"Dummy description\r\n","status":"Open","stories":[2]}},"stories":{"2":{"name":"story_1\r\n","description":"Dummy_Dummy story blablabla\r\n","status":"Open"}}}
+{"last_item_id":3,"epics":{"1":{"name":"Epic_1\r\n","description":"Dummy description\r\n","status":"Open","stories":[2]},"3":{"name":"Epic_2\r\n","description":"Otro description dummy\r\n","status":"Resolved","stories":[]}},"stories":{"2":{"name":"story_1\r\n","description":"Dummy_Dummy story blablabla\r\n","status":"Open"}}}

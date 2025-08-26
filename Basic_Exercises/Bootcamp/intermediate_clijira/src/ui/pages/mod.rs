@@ -31,6 +31,8 @@ impl Page for HomePage {
             let epic = &epics[id];
             let id_column = get_column_string(&id.to_string(), 11);
             let name_column = get_column_string(&epic.name,  30);
+            let status_column = get_column_string(&epic.status.to_string(), 15);
+            println!("{} | {} | {}", id_column, name_column, status_column);
         }
         println!();
         println!();
