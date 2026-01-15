@@ -1,0 +1,14 @@
+# Rust
+target/
+
+# Cargo.lock (opcional)
+# Si es librería, suele ignorarse
+# Si es binario/app, se suele versionar
+# Cargo.lock
+
+# IDEs
+.vscode/
+.idea/
+
+# SO
+.DS_Store
