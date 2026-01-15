@@ -1,0 +1,10 @@
+/home/trinity/Documentos/Knowledge/Rust/Basic_Exercises/Bootcamp/advance_async/target/debug/deps/derive_more-b4523578e364744e.d: /home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/lib.rs /home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/syn_compat.rs /home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/utils.rs /home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_assign_like.rs /home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_helpers.rs /home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_like.rs
+
+/home/trinity/Documentos/Knowledge/Rust/Basic_Exercises/Bootcamp/advance_async/target/debug/deps/libderive_more-b4523578e364744e.so: /home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/lib.rs /home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/syn_compat.rs /home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/utils.rs /home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_assign_like.rs /home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_helpers.rs /home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_like.rs
+
+/home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/lib.rs:
+/home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/syn_compat.rs:
+/home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/utils.rs:
+/home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_assign_like.rs:
+/home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_helpers.rs:
+/home/trinity/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/derive_more-0.99.20/src/add_like.rs:

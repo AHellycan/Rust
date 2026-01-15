@@ -1,5 +1,5 @@
 //extern crate trpl;
-use trpl::{Html, Either,ReceiverStream, Stream, StreamExt};
+use trpl::{Either, Html, ReceiverStream, Stream, StreamExt, select};
 use std::{fmt::format, future::Future, pin::{pin, Pin}, time::Duration};
 
 
