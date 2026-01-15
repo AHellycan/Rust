@@ -1,1 +1,0 @@
-tokio_stream::stream_ext::map::Map<impl Stream<Item = u32>, {closure@src/main.rs:90:45: 90:55}>
