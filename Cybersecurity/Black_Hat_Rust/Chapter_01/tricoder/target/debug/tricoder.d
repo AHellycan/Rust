@@ -1,0 +1,1 @@
+/home/trinity/Documentos/Knowledge/Rust/Cybersecurity/Black_Hat_Rust/Chapter_01/tricoder/target/debug/tricoder: /home/trinity/Documentos/Knowledge/Rust/Cybersecurity/Black_Hat_Rust/Chapter_01/tricoder/src/main.rs
